@@ -1,0 +1,66 @@
+/* Styling the header with a teal background and some padding */
+.header{
+    overflow:hidden;
+    background-color:white;
+    padding:0;
+}
+
+/* Styling header with links */
+.header a{
+    float:left;
+    color: #777777;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+/* Line Border */
+.bottombar{
+    border-bottom:1px solid #ccc!important;
+}
+
+/* Color and format of the About me */
+.header a.logo{
+    font-size:18px;
+    font-weight:bold;
+    color: white;
+    background-color: #4aaaa5;
+}
+
+/* Float link sections to the right */
+.header-right{
+    float:right;
+}
+
+.body{
+    background-color:#f1f1f1;
+}
+
+.container{
+    background-color:#ffffff;
+    width:960px;
+    margin: auto;
+    overflow:auto;
+
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    float: left;
+
+}
+
+.footer{
+    background-color:#666666;
+    text-align:center;
+    color:#777777;
+}
+
+.topborder{
+    border-top:#4aaaa5;
+}   
